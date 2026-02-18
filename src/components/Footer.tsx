@@ -9,8 +9,8 @@ const Footer = () => {
     <footer className="py-10 px-6 border-t border-border">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="font-syne font-extrabold text-lg tracking-tight">
-          <span className="text-gradient">Fagan</span>
-          <span className="text-foreground">Designs</span>
+          <span className="text-gradient">Site</span>
+          <span className="text-foreground">Rescue</span>
         </div>
 
         <div className="flex items-center gap-6 text-sm text-muted-foreground">
@@ -31,7 +31,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="max-w-6xl mx-auto mt-6 pt-6 border-t border-border/50 text-center text-muted-foreground text-xs">
-        © {new Date().getFullYear()} Fagan Designs. All rights reserved.
+        © {new Date().getFullYear()} SiteRescue. All rights reserved.
       </div>
     </footer>
   );

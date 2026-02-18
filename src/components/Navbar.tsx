@@ -9,8 +9,8 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-12 py-5"
       style={{ background: "linear-gradient(to bottom, hsl(220,30%,6%), transparent)" }}>
       <div className="font-syne font-extrabold text-xl tracking-tight">
-        <span className="text-gradient">Fagan</span>
-        <span className="text-foreground">Designs</span>
+        <span className="text-gradient">Site</span>
+        <span className="text-foreground">Rescue</span>
       </div>
       <div className="hidden md:flex items-center gap-8 text-sm font-inter text-muted-foreground">
         <button onClick={() => scrollTo("services")} className="hover:text-primary transition-colors">Services</button>
